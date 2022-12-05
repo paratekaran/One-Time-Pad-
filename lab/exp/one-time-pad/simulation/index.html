@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from cse29-iiith.vlabs.ac.in/exp/one-time-pad/simulation/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Nov 2022 15:47:54 GMT -->
+<head>
+	<!-- Add CSS at the head of HTML file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h4>Simulator</h4>
+        <div class="input">
+
+            <p>Enter Plaintext <br>
+            </p>
+            <textarea cols="50" id="p" name="p" rows="2">10010011000110</textarea>
+        </div>
+        <br>
+        <p>key =
+            <input id="key" maxchars="25" name="key" size="25" type="text" value="1010110 0110001"/>
+            <input class="keybtn" name="genKey" onclick="Vernam_RandKey()" type="button" value="Generate Random Key"/>
+        </p>
+        <p>
+            <input class="encrypt" name="btnEn" onclick="Vernam_Encrypt()" type="button" value="Encrypt"/>
+            <input class="decrypt" name="btnDe" onclick="Vernam_Decrypt()" type="button" value="Decrypt"/>
+        </p>
+        <br/>
+        <p>Ciphertext
+        </p>
+        <textarea cols="50" id="c" name="c" rows="8"></textarea>
+    </div>
+
+		
+	<!-- Add JS at the bottom of HTML file --> 
+        <script src="js/vernam.js"></script>
+<script src="../assets/js/iframeResize.js"></script></body>
+
+<!-- Mirrored from cse29-iiith.vlabs.ac.in/exp/one-time-pad/simulation/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Nov 2022 15:47:54 GMT -->
+</html>

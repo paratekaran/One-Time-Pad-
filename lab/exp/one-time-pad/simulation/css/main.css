@@ -1,0 +1,50 @@
+/* You CSS goes in here */
+h4 {
+    font-size: x-large;
+}
+p{
+    font-size: larger;
+}
+textarea{
+    margin-top: 1px;
+    border-width: 3px;
+}
+#key {
+    border-width: 3px;
+    height: 30px;
+}
+
+.keybtn{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.keybtn:hover{
+    color: black;
+    background-color: lightpink;
+}
+
+.encrypt{
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.encrypt:hover{
+    color: black;
+    background-color: lightpink;
+}
+.decrypt{
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.decrypt:hover{
+    color: black;
+    background-color: lightpink;
+}
